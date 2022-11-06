@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	
+	vertical-align: baseline;
+}
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {background: skyblue;}
+
+.main_wrapper{
+	background: pink;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+}
+.header_wrapper{
+	width: 1000px;
+	height: 155px;
+	margin: auto;
+
+}
+#logo{ float: left; }
+#banner{ float: right;
+	height: 155px;
+	width: 845px;
+} 
+.menubar{
+	width: 1000px;
+	height: 45px;
+	background: gray;
+	color: white;
+}
+#menu{
+	padding: 1000;
+	margin: 0;
+	line-height: 40px;
+	float: :right;  /* this for serch bar value */
+	display: inline;
+
+}
+#menu li {
+	list-style: none;
+	display: inline;
+} 
+#menu a {
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+
+}
+#menu a:hover{color: orange; font-weight: bolder; text-decoration: underline;}
+
+.content_wrapper {
+	width: 1000px;
+	
+	margin: auto;
+	background: pink;
+} 
+ #form{
+ 	
+ 	float: right;
+ 	margin: 5px;
+ 	padding: 5px;
+
+ }
+
+#content_area {
+	
+	width: 800px;
+	float: left;
+	background: pink;
+}
+#sidebar{
+
+	width:200px;
+	height: auto;
+	float: right;
+	background: black;
+	display: block;
+
+}
+
+#Sidebar_titel{
+	background: white;
+	columns: black;
+	font-size: 22px;
+	font-family: arial;
+	padding: 10px;
+	display: block;
+
+
+
+}
+#cats{
+	text-align: center;
+}
+#cats li{
+	list-style: none; display: block;
+	margin: 5px;
+	text-align: center;
+
+}
+#cats a{
+	color: orange;padding: 8px;margin: 5px; 
+	font-size: 18px;
+	font-family: comic sans ms;
+	text-decoration: none;
+}
+#cats a:hover{color: yellow;font-weight: bolder;text-decoration: underline;}
+
+#cats img{border: 2px solid white; padding: 4px; margin-top: 4px;}
+
+#product_box{
+	width: 780px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+#singale_product {
+	float: left;margin-left: 30px; padding: 10px;
+}
+#singale_product img{
+	border:2px solid black;
+}
+
+#shopping_cart{
+	width: 800px; height: 50px; background: black; color: white;
+}
+
+#footer{
+	width: 1000px;
+	height: 100px;
+	background: gray;
+	clear: both;
+	
+}
